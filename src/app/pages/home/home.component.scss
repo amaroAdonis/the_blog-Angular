@@ -1,0 +1,12 @@
+:host{
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+    .articles{
+        justify-content: center;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+}

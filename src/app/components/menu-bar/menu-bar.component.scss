@@ -1,0 +1,21 @@
+:host{
+    .container-menu-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                text-transform: uppercase;
+                font-size: large;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 20px;
+                list-style: none;
+            }
+        }
+    }
+}
