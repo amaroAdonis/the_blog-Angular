@@ -4,11 +4,24 @@
 <app-menu-title></app-menu-title>
 <div class="articles">
     <div class="articles-main">
-        <app-big-card></app-big-card>
+        <app-big-card 
+        cardTitle="Angular v16 is here!"
+        photoCover="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*CNy2EclZxC1hmi_govb_7w.png"
+        cardDescription="Six months ago, we reached a significant milestone in Angular’s simplicity and developer experience by graduating the standalone APIs from developer preview."></app-big-card>
     </div>
     <div class="articles-others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+        photoCover="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*IqSLoydVQwWsVmlchl5B4A.png"
+        cardTitle="Angular Developer Survey 2022 Results Summary"
+        cardDescription="The Angular team is evidence driven — we collect feedback from developers to decide what should be part of our roadmap."
+        ></app-small-card>
+        <app-small-card
+        cardTitle="Write better tests without Router mocks/stubs"
+        photoCover="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_Ow3G137nnafrO0boJXFew.png"
+        cardDescription="Conventional wisdom might suggest that test authors should stub external dependencies like ActivatedRoute or RouterLink and spy on services and service methods like navigateByUrl."></app-small-card>
+        <app-small-card
+        cardTitle="The S.O.L.I.D Principles in Pictures"
+        photoCover="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*wrxj0oBKpA_GXb8LPhXOeg.png"
+        cardDescription="If you are familiar with Object-Oriented Programming, then you’ve probably heard about the SOLID principles."></app-small-card>
     </div>
 </div>
